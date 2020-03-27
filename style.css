@@ -87,6 +87,7 @@ body{
 @media (prefers-color-scheme: dark){
     body{
         background: linear-gradient(to top,#0F2027, #203A43, #2C5364);
+        color: ghostwhite;
     }
     .footer{
         color: #ecf0f1;
