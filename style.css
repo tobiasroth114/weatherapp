@@ -59,6 +59,7 @@ body{
     margin: auto;
     text-align: center;
     color: #2c3e50;
+    height: 10vh;
 }
 .footer a{
     text-decoration: none;
@@ -68,13 +69,9 @@ body{
     color: #ecf0f1;
     transition: .3s linear;
 }
-.social-media {
-    margin: 20px 0;
-}
 
 .social-media a {
     color: #2c3e50;
-    margin-right: 25px;
     font-size: 25px;
     text-decoration: none;
     transition: .3s linear;
@@ -82,4 +79,7 @@ body{
 
 .social-media a:hover {
     color: #ecf0f1;
+}
+.rights-text{
+    padding: 20px;
 }
