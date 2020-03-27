@@ -15,7 +15,7 @@ body{
 }
 .heading{
     font-size: 40px;
-    margin: 100px;
+    margin: 20px;
 }
 .location, .temperature{
     height: 30vh;
@@ -28,7 +28,7 @@ body{
     flex-direction: column;
 }
 .temperature p{
-    text-transform: uppercase;
+    text-transform: capitalize;
     
 }
 .temperature-degree{
@@ -83,3 +83,4 @@ body{
 .rights-text{
     padding: 20px;
 }
+
