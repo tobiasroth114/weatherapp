@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Weather</title>
+</head>
+
+<body>
+    <h1 class="heading">Weather:</h1>
+    <div class="location">
+        <h1 class="location-timezone">Timezone</h1>
+        <canvas class="icon" width="128" height="128"></canvas>
+    </div>
+    <div class="temperature">
+        <div class="degree-section">
+            <h2 class="temperature-degree">34</h2>
+            <span>°F</span>
+        </div>
+        <p>click to change unit</p>
+        <div class="temperature-description">kalt/warm</div>
+    </div>
+
+    <div class="footer">
+        <div class="social-media">
+            <a href="https://instagram.com/tobiasroth.jpg"><i class="fab fa-instagram"></i></a>
+          </div>
+          <p class="rights-text">©2020 Tobias Roth</p>
+          <a href="https://darksky.net/poweredby/">Powered by Dark Sky</a>
+    </div>
+    
+      
+    <script src="skycons.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(#f1c25d, #f16726);
+    font-family: sans-serif;
+    color: whitesmoke;
+}
+.heading{
+    font-size: 40px;
+    margin: 100px;
+}
+.location, .temperature{
+    height: 30vh;
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.temperature{
+    flex-direction: column;
+}
+.temperature p{
+    text-transform: uppercase;
+    
+}
+.temperature-degree{
+    cursor: pointer;
+}
+.degree-section{
+    display: flex;
+    align-items: center;
+}
+.degree-section span{
+    margin: 10px;
+    font-size: 40px;
+}
+.degree-section h2{
+    font-size: 40px;
+}
+.icon{
+    width: 100px;
+    padding: 15px;
+}
+.location-timezone{
+    font-size: 30px;
+}
+.temperature-description{
+    font-size: 20px;
+}
+.footer{
+    margin: auto;
+    text-align: center;
+    color: #2c3e50;
+}
+.footer a{
+    text-decoration: none;
+    color: #2c3e50;
+}
+.footer a:hover{
+    color: #ecf0f1;
+    transition: .3s linear;
+}
+.social-media {
+    margin: 20px 0;
+}
+
+.social-media a {
+    color: #2c3e50;
+    margin-right: 25px;
+    font-size: 25px;
+    text-decoration: none;
+    transition: .3s linear;
+}
+
+.social-media a:hover {
+    color: #ecf0f1;
+}
