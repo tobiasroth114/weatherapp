@@ -84,3 +84,22 @@ body{
     padding: 20px;
 }
 
+@media (prefers-color-scheme: dark){
+    body{
+        background: linear-gradient(to top,#0F2027, #203A43, #2C5364);
+    }
+    .footer{
+        color: #ecf0f1;
+    }
+    .footer a{
+        color: #ecf0f1;
+    }
+    .social-media a:hover{
+        color: #7f8c8d;
+        transition: .3s linear;
+    }
+    .footer a:hover{
+        color: #7f8c8d;
+        transition: .3s linear;
+    }
+}
