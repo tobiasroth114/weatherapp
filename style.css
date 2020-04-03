@@ -11,11 +11,11 @@ body{
     align-items: center;
     background: linear-gradient(#f1c25d, #f16726);
     color: whitesmoke;
-    font-family: "futura-pt", sans-serif;
+    font-family: "futura", sans-serif;
 }
 
 .heading{
-    font-size: 40px;
+    font-size: 35px;
     margin: 20px;
 }
 .location, .temperature{
@@ -40,10 +40,13 @@ body{
 }
 .degree-section span{
     margin: 10px;
-    font-size: 40px;
+    font-size: 35px;
+    font-weight: 400;
+
 }
 .degree-section h2{
-    font-size: 40px;
+    font-size: 35px;
+    font-weight: 400;
 }
 .icon{
     width: 100px;
