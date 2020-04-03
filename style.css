@@ -12,6 +12,7 @@ body{
     font-family: sans-serif;
     background: linear-gradient(#f1c25d, #f16726);
     color: whitesmoke;
+    font-family: "futura-pt", sans-serif;
 }
 
 .heading{
@@ -32,12 +33,11 @@ body{
     text-transform: capitalize;
     
 }
-.temperature-degree{
-    cursor: pointer;
-}
+
 .degree-section{
     display: flex;
     align-items: center;
+    cursor: pointer;
 }
 .degree-section span{
     margin: 10px;

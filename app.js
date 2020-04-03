@@ -5,6 +5,7 @@ window.addEventListener('load', () => {
     let temperatureDegree = document.querySelector('.temperature-degree');
     let locationTimezone = document.querySelector('.location-timezone');  
     let temperatureSection = document.querySelector('.temperature');  
+    let degreeSection = document.querySelector('.degree-section')
     const temperatureSpan = document.querySelector('.temperature span');
     
 
@@ -33,7 +34,7 @@ window.addEventListener('load', () => {
                     //set Icons
                     setIcons(icon, document.querySelector('.icon'));
                     // change fahrenheit to celsius
-                    temperatureSection.addEventListener('click', ()=>{
+                    degreeSection.addEventListener('click', ()=>{
                         if(temperatureSpan.textContent === "°F"){
                             temperatureSpan.textContent = "°C";
                             temperatureDegree.textContent = Math.floor(celsius);
