@@ -11,12 +11,16 @@ body{
     align-items: center;
     background: linear-gradient(#f1c25d, #f16726);
     color: whitesmoke;
-    font-family: "futura", sans-serif;
+    font-family: "Futura","Arial", "Helvetica", sans-serif;
 }
 
 .heading{
     font-size: 35px;
     margin: 20px;
+}
+#clock {
+    color: #ecf0f1;
+    font-weight: 700;
 }
 .location, .temperature{
     height: 30vh;

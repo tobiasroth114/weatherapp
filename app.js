@@ -55,3 +55,20 @@ window.addEventListener('load', () => {
     }
 
 });
+
+//clock
+
+const showClock = () => {
+    const clock = document.getElementById('clock');
+    let currDate = new Date();
+    let h = currDate.getHours();
+    let m = currDate.getMinutes();
+    let s = currDate.getSeconds();
+    //add zero to minutes & seconds if smaller than 10
+    m = m < 10 ? `0${m}` : m;
+    s = s < 10 ? `0${s}` : s;
+    //display as hh:mm:ss
+    clock.innerText = `${h}:${m}:${s}`;
+    setTimeout(showClock, 1000)
+}
+showClock();
